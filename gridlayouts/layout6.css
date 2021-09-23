@@ -1,0 +1,38 @@
+#container{
+    display: grid;
+    height: 300px;
+    width: 400px;
+    gap: 10px;
+    grid-template-columns: 50px 50px 50px ;
+    grid-template-rows:  50px 70px 70px;
+}
+#item1{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+#item2{
+    background-color: black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#item3{
+    background-color: black;
+    
+}
+#item4{
+    background-color: black;
+}
+#item5{
+    background-color: black;
+}
+#item6{
+    background-color: black;
+}
+#item7{
+    background-color: black;
+}
+#item8{
+    background-color: black;
+}

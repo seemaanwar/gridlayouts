@@ -1,0 +1,38 @@
+.box{
+    display: grid;
+
+    grid-template-rows: 60px 100px 100px 60px ;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+}
+.items1{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.items2{
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.items3{
+    background-color: black;
+}
+.items4{
+    background-color: black;
+}
+.items5{
+    background-color: black;
+}
+.items6{
+    background-color: black;
+}
+.items7{
+    background-color: black;
+}
+.items8{
+
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

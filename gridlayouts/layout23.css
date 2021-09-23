@@ -1,0 +1,30 @@
+#box{
+    display: grid;
+    height: 250px;
+    width: 170px;
+    gap: 10px;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px ;
+}
+#i1{
+background-color: black;
+grid-row: 1 / 5;
+}
+#i2{
+background-color: black;
+grid-column-start: 2;
+grid-column-end: 4;
+}
+#i3{
+background-color: black;
+grid-row: 2 /4;
+
+ }
+#i4{
+background-color: black;
+grid-row: 2 /4;
+}
+ #i5{
+ background-color: black;
+ grid-column: 2/4;
+}
